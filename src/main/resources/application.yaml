@@ -1,0 +1,29 @@
+postFieldsParameters:
+  - shares
+  - id
+  - caption
+  - created_time
+  - description
+  - from
+  - is_hidden
+  - link
+  - message
+  - name
+  - permalink_url
+  - picture
+  - source
+  - status_type
+  - type
+  - updated_time
+  - parent_id
+  - place
+  - properties
+  - full_text
+postDetailedStats:
+  - likes.summary(true)
+  - comments.summary(true)
+  - reactions.summary(true)
+postCountOnlyStats:
+  - likes.limit(0).summary(true)
+  - comments.limit(0).summary(true)
+  - reactions.limit(0).summary(true)
